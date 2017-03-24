@@ -1,6 +1,6 @@
 # ugmat #
 
-**ugmat** is a program to compare and analyse vectors matrices in ug4's .mat format.
+**ugmat** is a program to compare and analyse matrices in ug4's .mat format.
 
 ## INSTALLATION: ##
 Install ugmat with ug4's package manager [ughub](https://github.com/UG4/ughub):
