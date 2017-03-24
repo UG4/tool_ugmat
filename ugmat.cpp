@@ -1,6 +1,6 @@
-// This file is part of matutil, a C++ library for analysing and comparing sparse matrices
+// This file is part of ugmat, a program for analysing and comparing matrices
 //
-// Copyright (C) 2016,2017 Sebastian Reiter, G-CSC Frankfurt <sreiter@gcsc.uni-frankfurt.de>
+// Copyright (C) 2017 Sebastian Reiter, G-CSC Frankfurt <sreiter@gcsc.uni-frankfurt.de>
 //
 // This Source Code Form is subject to the terms of the Mozilla
 // Public License v. 2.0. If a copy of the MPL was not distributed
@@ -416,12 +416,12 @@ int main(int argc, char** argv)
 
 		else{
 			cout << endl;
-			cout << "matutil - (c) 2017 Sebastian Reiter, G-CSC Frankfurt" << endl;
+			cout << "ugmat - (c) 2017 Sebastian Reiter, G-CSC Frankfurt" << endl;
 			cout << endl;
-			cout << "USAGE: matutil command [options] [files]" << endl;
-			cout << "OR:    matutil command [files] [options]" << endl << endl;
+			cout << "USAGE: ugmat command [options] [files]" << endl;
+			cout << "OR:    ugmat command [files] [options]" << endl << endl;
 
-			cout << "SAMPLE: matutil diag -consistent A.mat diag.vec" << endl << endl;
+			cout << "SAMPLE: ugmat diag -consistent A.mat diag.vec" << endl << endl;
 
 			cout << "COMMANDS:" << endl;
 
